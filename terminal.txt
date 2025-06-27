@@ -1,0 +1,11 @@
+# 1. Créer l'environnement virtuel dans un dossier appelé 'env'
+python -m venv env
+
+# 2. Activer l'environnement virtuel
+.\env\Scripts\activate
+
+# 3. Installer les bibliothèques depuis le fichier requirements.txt
+pip install -r requirements.txt
+
+# 4. Lancer l'application Streamlit
+streamlit run streamlit/app.py
